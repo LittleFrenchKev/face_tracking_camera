@@ -29,8 +29,8 @@ int LED_state = 0;
 void setup() {
   Serial.begin(115200);
   
-  panServo.attach(8);
-  tiltServo.attach(9);
+  panServo.attach(9);
+  tiltServo.attach(10);
 
   pinMode(redledPin, OUTPUT);
   pinMode(yellowledPin, OUTPUT);
